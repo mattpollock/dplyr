@@ -4,7 +4,7 @@
 #define R_NO_REMAP
 #include <Rinternals.h>
 
-typedef void* (*DL_FUNC)();
+
 typedef union {
   void* p;
   DL_FUNC fn;
